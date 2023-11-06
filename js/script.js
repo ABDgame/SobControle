@@ -6,7 +6,7 @@ const dummyTransactions = [
 ]
 
 const addTransactionIntoDOM = transaction => {
-  
+  const operator = transaction.amout < 0 ? '-'
  /* <li class="minus">
     Salário <span>-R$4000</span><button class="delete-btn">x</button>
   </li> */
