@@ -6,5 +6,7 @@ const dummyTransactions = [
 ]
 
 const addTransactionIntoDOM = transaction => {
-  
+  <li class="minus">
+       Salário <span>-R$4000</span><button class="delete-btn"
+  </li>
 }
